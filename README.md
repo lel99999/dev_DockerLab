@@ -1,5 +1,2 @@
-# dev_DockerLab
-Experimental Docker
-
-
-#### Testing Deploying Mesos
+# dev_DockerRH7
+Docker Integration with RHEL 7.x
