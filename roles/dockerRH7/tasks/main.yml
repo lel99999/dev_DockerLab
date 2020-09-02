@@ -1,9 +1,19 @@
+- name: Add Repo
+  yum_repository:
+    name: docker
+    description: docker ce repo
+    baseurl: https://download.docker.com/linux/centos/docker-ce.repo
+
 - name: Install Docker
   yum:
     name: {{ items }}
     state: present
   with_items:
-  - docker
+  - docker-ce
+# - docker
   - yum-utils 
   - device-mapper-persistent-data 
   - lvm2
+
+- name: Enable Docker Service
+  shell: systemctl enable docker.service
