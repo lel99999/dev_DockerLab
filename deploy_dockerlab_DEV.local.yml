@@ -2,7 +2,7 @@
   vars:
     custom_repo: true
     deploy_iptables: true
-    envir: PROD
+    envir: DEV.local
 # vars_files:
 #    - ~/RHACCOUNT
   become: yes
