@@ -36,7 +36,8 @@
 #     shell:  yum groupinstall "Development Tools" -y
     - name: Install X Windows
       yum:
-        name: "@X Window System"
+        name: "@Serverj with GUI"
+#       name: "@X Window System"
         state: present 
     - name: Install wget
       yum:
