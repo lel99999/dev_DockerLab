@@ -3,8 +3,8 @@
     custom_repo: true
     deploy_iptables: true
     envir: DEV.local
-# vars_files:
-#    - ~/RHACCOUNT
+  vars_files:
+     - ~/RHACCOUNT
   become: yes
   become_method: sudo
 
