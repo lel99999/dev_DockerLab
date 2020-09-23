@@ -1,5 +1,5 @@
-# dev_DockerRH7
-Docker Integration with RHEL 7.x
+# dev_DockerLab
+Docker Integration and Deployment
 
 #### Docker CE (Rebranded Docker Engine) and Docker EE 
 Docker CE (Community Edition) is available in 2 Editions: Edge and Stable - for developers and small teams<br/>
